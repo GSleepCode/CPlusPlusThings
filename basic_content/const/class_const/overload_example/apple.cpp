@@ -4,7 +4,7 @@
 int Apple::apple_number = 10;
 
 Apple::Apple(int i) { apple_number = i; }
-int Apple::add() {
+int Apple::add() const {
   take(1);
   return 0;
 }
